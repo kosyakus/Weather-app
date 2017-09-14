@@ -10,6 +10,11 @@ import UIKit
 
 class DetailedCell: UITableViewCell {
 
+    @IBOutlet weak var labelDescr: UILabel!
+    @IBOutlet weak var labelTemp: UILabel!
+    @IBOutlet weak var labelDate: UILabel!
+    @IBOutlet weak var imagePng: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

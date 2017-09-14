@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import RealmSwift
+
+class City: Object {
+    
+    dynamic var title: String = ""
+    dynamic var id: String = ""
+    
+}

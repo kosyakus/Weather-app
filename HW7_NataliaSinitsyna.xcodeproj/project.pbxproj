@@ -12,9 +12,25 @@
 		8455E2B11F0D143E00D641B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8455E2AF1F0D143E00D641B2 /* Main.storyboard */; };
 		8455E2B31F0D143E00D641B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8455E2B21F0D143E00D641B2 /* Assets.xcassets */; };
 		8455E2B61F0D143E00D641B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8455E2B41F0D143E00D641B2 /* LaunchScreen.storyboard */; };
+		8455E2BE1F0D156D00D641B2 /* pogoda_19_6_1_3_10_21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8455E2BD1F0D156D00D641B2 /* pogoda_19_6_1_3_10_21.jpg */; };
+		8455E2C01F0D163400D641B2 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455E2BF1F0D163400D641B2 /* CitiesTableViewController.swift */; };
+		8455E2C21F0D167700D641B2 /* DetailedWeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455E2C11F0D167700D641B2 /* DetailedWeatherController.swift */; };
+		8455E2C51F0D1E2800D641B2 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455E2C41F0D1E2800D641B2 /* City.swift */; };
+		8455E2C81F0D1E8A00D641B2 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455E2C61F0D1E8A00D641B2 /* Router.swift */; };
+		8455E2C91F0D1E8A00D641B2 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455E2C71F0D1E8A00D641B2 /* WeatherService.swift */; };
+		8455E2CB1F0D245000D641B2 /* AddCityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455E2CA1F0D245000D641B2 /* AddCityController.swift */; };
+		8455E2CD1F0D2D5600D641B2 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455E2CC1F0D2D5600D641B2 /* Weather.swift */; };
+		8496F5811F0EBD0C001DF33D /* sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8496F57D1F0EBD0C001DF33D /* sun.jpg */; };
+		8496F58A1F0EC46F001DF33D /* clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8496F5871F0EC46F001DF33D /* clouds.jpg */; };
+		8496F58B1F0EC46F001DF33D /* cloudWsun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8496F5881F0EC46F001DF33D /* cloudWsun.jpg */; };
+		8496F58C1F0EC46F001DF33D /* cloudWthunder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8496F5891F0EC46F001DF33D /* cloudWthunder.jpg */; };
+		8496F58E1F0ED00C001DF33D /* DetailedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496F58D1F0ED00C001DF33D /* DetailedCell.swift */; };
+		8496F5901F0EE0AD001DF33D /* clouds60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 8496F58F1F0EE0AD001DF33D /* clouds60x60.png */; };
+		A912576056B5E272CA3EB83F /* Pods_HW7_NataliaSinitsyna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB72D0A039FBE6B2393B2DD /* Pods_HW7_NataliaSinitsyna.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DEAF9E11728C43885AD8890 /* Pods-HW7_NataliaSinitsyna.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW7_NataliaSinitsyna.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HW7_NataliaSinitsyna/Pods-HW7_NataliaSinitsyna.debug.xcconfig"; sourceTree = "<group>"; };
 		8455E2A81F0D143E00D641B2 /* HW7_NataliaSinitsyna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW7_NataliaSinitsyna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8455E2AB1F0D143E00D641B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8455E2AD1F0D143E00D641B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,22 @@
 		8455E2B21F0D143E00D641B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8455E2B51F0D143E00D641B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8455E2B71F0D143E00D641B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8455E2BD1F0D156D00D641B2 /* pogoda_19_6_1_3_10_21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pogoda_19_6_1_3_10_21.jpg; sourceTree = "<group>"; };
+		8455E2BF1F0D163400D641B2 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		8455E2C11F0D167700D641B2 /* DetailedWeatherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedWeatherController.swift; sourceTree = "<group>"; };
+		8455E2C41F0D1E2800D641B2 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		8455E2C61F0D1E8A00D641B2 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8455E2C71F0D1E8A00D641B2 /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		8455E2CA1F0D245000D641B2 /* AddCityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCityController.swift; sourceTree = "<group>"; };
+		8455E2CC1F0D2D5600D641B2 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		8496F57D1F0EBD0C001DF33D /* sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun.jpg; sourceTree = "<group>"; };
+		8496F5871F0EC46F001DF33D /* clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clouds.jpg; sourceTree = "<group>"; };
+		8496F5881F0EC46F001DF33D /* cloudWsun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloudWsun.jpg; sourceTree = "<group>"; };
+		8496F5891F0EC46F001DF33D /* cloudWthunder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloudWthunder.jpg; sourceTree = "<group>"; };
+		8496F58D1F0ED00C001DF33D /* DetailedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedCell.swift; sourceTree = "<group>"; };
+		8496F58F1F0EE0AD001DF33D /* clouds60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clouds60x60.png; sourceTree = "<group>"; };
+		ADC5BC1A01217FEF0688DE01 /* Pods-HW7_NataliaSinitsyna.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW7_NataliaSinitsyna.release.xcconfig"; path = "Pods/Target Support Files/Pods-HW7_NataliaSinitsyna/Pods-HW7_NataliaSinitsyna.release.xcconfig"; sourceTree = "<group>"; };
+		CDB72D0A039FBE6B2393B2DD /* Pods_HW7_NataliaSinitsyna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HW7_NataliaSinitsyna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A912576056B5E272CA3EB83F /* Pods_HW7_NataliaSinitsyna.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +73,8 @@
 			children = (
 				8455E2AA1F0D143E00D641B2 /* HW7_NataliaSinitsyna */,
 				8455E2A91F0D143E00D641B2 /* Products */,
+				D8D927F453B9073A97786C46 /* Pods */,
+				C8AB04D9B05E50FB00F9E1DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +89,53 @@
 		8455E2AA1F0D143E00D641B2 /* HW7_NataliaSinitsyna */ = {
 			isa = PBXGroup;
 			children = (
+				8455E2C31F0D1DDC00D641B2 /* WeatherApp */,
 				8455E2AB1F0D143E00D641B2 /* AppDelegate.swift */,
 				8455E2AD1F0D143E00D641B2 /* ViewController.swift */,
 				8455E2AF1F0D143E00D641B2 /* Main.storyboard */,
 				8455E2B21F0D143E00D641B2 /* Assets.xcassets */,
 				8455E2B41F0D143E00D641B2 /* LaunchScreen.storyboard */,
 				8455E2B71F0D143E00D641B2 /* Info.plist */,
+				8455E2BD1F0D156D00D641B2 /* pogoda_19_6_1_3_10_21.jpg */,
+				8496F57D1F0EBD0C001DF33D /* sun.jpg */,
+				8496F5871F0EC46F001DF33D /* clouds.jpg */,
+				8496F58F1F0EE0AD001DF33D /* clouds60x60.png */,
+				8496F5881F0EC46F001DF33D /* cloudWsun.jpg */,
+				8496F5891F0EC46F001DF33D /* cloudWthunder.jpg */,
 			);
 			path = HW7_NataliaSinitsyna;
+			sourceTree = "<group>";
+		};
+		8455E2C31F0D1DDC00D641B2 /* WeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				8455E2BF1F0D163400D641B2 /* CitiesTableViewController.swift */,
+				8455E2CA1F0D245000D641B2 /* AddCityController.swift */,
+				8455E2C11F0D167700D641B2 /* DetailedWeatherController.swift */,
+				8496F58D1F0ED00C001DF33D /* DetailedCell.swift */,
+				8455E2C41F0D1E2800D641B2 /* City.swift */,
+				8455E2CC1F0D2D5600D641B2 /* Weather.swift */,
+				8455E2C61F0D1E8A00D641B2 /* Router.swift */,
+				8455E2C71F0D1E8A00D641B2 /* WeatherService.swift */,
+			);
+			name = WeatherApp;
+			sourceTree = "<group>";
+		};
+		C8AB04D9B05E50FB00F9E1DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB72D0A039FBE6B2393B2DD /* Pods_HW7_NataliaSinitsyna.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8D927F453B9073A97786C46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DEAF9E11728C43885AD8890 /* Pods-HW7_NataliaSinitsyna.debug.xcconfig */,
+				ADC5BC1A01217FEF0688DE01 /* Pods-HW7_NataliaSinitsyna.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8455E2BA1F0D143E00D641B2 /* Build configuration list for PBXNativeTarget "HW7_NataliaSinitsyna" */;
 			buildPhases = (
+				67C45FCBCD5763BFFFDED3AE /* [CP] Check Pods Manifest.lock */,
 				8455E2A41F0D143E00D641B2 /* Sources */,
 				8455E2A51F0D143E00D641B2 /* Frameworks */,
 				8455E2A61F0D143E00D641B2 /* Resources */,
+				6299AAAE1B58E923F55A6E86 /* [CP] Embed Pods Frameworks */,
+				B81BC9FD37E43644AB222E92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +200,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8496F58B1F0EC46F001DF33D /* cloudWsun.jpg in Resources */,
+				8455E2BE1F0D156D00D641B2 /* pogoda_19_6_1_3_10_21.jpg in Resources */,
 				8455E2B61F0D143E00D641B2 /* LaunchScreen.storyboard in Resources */,
+				8496F5811F0EBD0C001DF33D /* sun.jpg in Resources */,
 				8455E2B31F0D143E00D641B2 /* Assets.xcassets in Resources */,
 				8455E2B11F0D143E00D641B2 /* Main.storyboard in Resources */,
+				8496F58A1F0EC46F001DF33D /* clouds.jpg in Resources */,
+				8496F5901F0EE0AD001DF33D /* clouds60x60.png in Resources */,
+				8496F58C1F0EC46F001DF33D /* cloudWthunder.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6299AAAE1B58E923F55A6E86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HW7_NataliaSinitsyna/Pods-HW7_NataliaSinitsyna-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67C45FCBCD5763BFFFDED3AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B81BC9FD37E43644AB222E92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HW7_NataliaSinitsyna/Pods-HW7_NataliaSinitsyna-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8455E2A41F0D143E00D641B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8455E2CB1F0D245000D641B2 /* AddCityController.swift in Sources */,
+				8496F58E1F0ED00C001DF33D /* DetailedCell.swift in Sources */,
 				8455E2AE1F0D143E00D641B2 /* ViewController.swift in Sources */,
+				8455E2C51F0D1E2800D641B2 /* City.swift in Sources */,
 				8455E2AC1F0D143E00D641B2 /* AppDelegate.swift in Sources */,
+				8455E2CD1F0D2D5600D641B2 /* Weather.swift in Sources */,
+				8455E2C21F0D167700D641B2 /* DetailedWeatherController.swift in Sources */,
+				8455E2C81F0D1E8A00D641B2 /* Router.swift in Sources */,
+				8455E2C01F0D163400D641B2 /* CitiesTableViewController.swift in Sources */,
+				8455E2C91F0D1E8A00D641B2 /* WeatherService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +397,7 @@
 		};
 		8455E2BB1F0D143E00D641B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DEAF9E11728C43885AD8890 /* Pods-HW7_NataliaSinitsyna.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HW7_NataliaSinitsyna/Info.plist;
@@ -270,6 +410,7 @@
 		};
 		8455E2BC1F0D143E00D641B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC5BC1A01217FEF0688DE01 /* Pods-HW7_NataliaSinitsyna.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HW7_NataliaSinitsyna/Info.plist;
@@ -299,6 +440,7 @@
 				8455E2BC1F0D143E00D641B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

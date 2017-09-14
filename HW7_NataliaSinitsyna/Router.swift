@@ -12,7 +12,7 @@ import Alamofire
 enum Router: URLRequestConvertible {
     
     private var besePath: String {
-        return "http://samples.openweathermap.org"
+        return "http://api.openweathermap.org"
     }
     
     case getWeather(q: String, appId: String)
