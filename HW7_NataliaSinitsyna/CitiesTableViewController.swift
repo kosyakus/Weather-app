@@ -74,7 +74,6 @@ class CitiesTableViewController: UITableViewController {
             let realm = try Realm()
             try realm.write {
                 realm.delete((self.cities?[indexPath.row])!)
-                //realm.delete(realm.objects(City.self)[indexPath.row]) //.sorted(byKeyPath: "title"))
                 }
             }  catch {
             print(error)
@@ -87,23 +86,6 @@ class CitiesTableViewController: UITableViewController {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
     
     // MARK: - Navigation
 
