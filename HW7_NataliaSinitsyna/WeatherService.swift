@@ -29,9 +29,7 @@ class WeatherService {
     
     private func parseWeatherFromJson(rawJson: Any) {
         let json = JSON(rawJson)
-        //print(json)
-        //let jsonArray = json["list"]
-        //for (_, item) in jsonArray {
+        
         var weatherArray = [Weather]()
         for (_, subJson):(String, JSON) in json["list"] {
         
